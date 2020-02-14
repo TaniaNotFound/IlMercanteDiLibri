@@ -1,0 +1,42 @@
+footer p {
+	margin: 1.5em;
+	display: inline;
+}
+
+p a {
+	color: white;
+	text-decoration: none;
+	font-weight: bold;
+    text-shadow: 2px 2px 10px black;
+}
+p a:hover{
+	color:darkRed;
+}
+
+	
+}
+
+.footer {
+	position: absolute;
+	height: 100px;
+	z-index: 0; /* Mette la bottomBar al di sopra di tutti gli elementi */
+	bottom: 0; /* Posizionano la barra */
+	left: 0; /* in basso */
+	width: 100%;
+	padding: 1em;
+	color: grey;
+	background-color: white;
+	text-align: center;
+	font-family: times new roman;
+	
+}
+
+#right_side {
+	text-align: right;
+}
+
+#info_menu p {
+	text-align: center;
+	font-family: times new roman;
+	
+}
